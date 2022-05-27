@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    min-height: 100%;
+    background-image: url(pics.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+* {
+
+    text-align: center;
+
+}
+
+body {
+
+    text-align: center;
+
+}
+
+tr:nth-child(1) {
+    background-color: green;
+    color: white;
+}
+
+tbody td:nth-child(1) {
+    background: orange;
+}
